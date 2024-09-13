@@ -1,0 +1,6 @@
+[keys]
+api_key=8092b08102137a311eca6601f131d4f2d4921936
+api_secret=8d76380c4154e20e69cab07adb9e7e21ab42bacc
+base_url=https://zk-test.satori.finance
+ws_url=wss://zk-test.satori.finance/api/market/ws
+;proxies=http://1.2.3.4:8080
