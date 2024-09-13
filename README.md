@@ -67,7 +67,7 @@ print(client.account())
 
 ### Base URL
 
-If `base_url` is not provided, it defaults to `zk-test.satori.finance`.<br/>
+If `base_url` is not provided, it defaults to `openapi.satori.finance`.<br/>
 
 ### Optional parameters
 
@@ -93,17 +93,3 @@ from satori.client import Client
 client= Client(timeout=1)
 ```
 
-### Proxy
-
-Proxy is supported.
-
-```python
-from satori.client import Client
-proxies = { 'https': 'http://1.2.3.4:8080' }
-
-client= Client(proxies=proxies)
-```
-
-```
-
-#### Proxy
